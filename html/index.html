@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="pageName">Website</h2>
+        <nav class="navigation">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+            <button class="btnLogin">Iniciar Sesion</button>
+        </nav>
+    </header> 
+    
+    <div class="Wrapper">
+        <span class="icon-close"><i class="fa-solid fa-x" style="color: #ededed;"></i>
+        </span>
+        <div class="form-box login">
+            <h2>Ingresar</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope" style="color: #eff0f0;"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                        <div class="input-box">
+                            <span class="icon"><i class="fa-solid fa-lock" style="color: #efeff1;"></i></span>
+                            <input type="password" required>
+                            <label>Contraseña</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Recordar usuario</label>
+                            <a href="#">¿Olvide mi contraseña?</a>
+                        </div>
+                        <button type="submit" class="btn">Ingresar</button>
+                        <button type="submit" class="btn">Iniciar sesion con Google
+                            <span class="GoogleIcon"><i class="fa-brands fa-google" style="color: #f2f2f2;"></i></span>
+                        </button>
+                        <div class="login-register">
+                            <p>¿No tienes una cuenta?
+                                <a href="#" class="register-link">
+                                    Registrate ahora
+                                </a>
+                            </p>
+                        </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registrarse</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-user" style="color: #dbdbdb;"></i></i>
+                    </span>
+                    <input type="text" required>
+                    <label>Usuario</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope" style="color: #eff0f0;"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                        <div class="input-box">
+                            <span class="icon"><i class="fa-solid fa-lock" style="color: #efeff1;"></i></span>
+                            <input type="password" required>
+                            <label>Contraseña</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Acepto los terminos y condiciones</label>
+                        </div>
+                        <button type="submit" class="btn">Registrarse</button>
+                        <div class="login-register">
+                            <p>¿Ya tienes una cuenta? <a href="#" class="login-link">Ingresar
+                            </a></p>
+                        </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="javaScript.js"></script>
+    <script src="https://kit.fontawesome.com/5d9099e446.js" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+    <h2 class="footerName">Usabilidad y Accesibilidad g1 ||Juan Naranjo - 55821012 </h2>
+    <img src="/resources/Logo-UdB-Vertical-Blanco.png" class="logoUniversidad">
+</footer>
+
+</html>
